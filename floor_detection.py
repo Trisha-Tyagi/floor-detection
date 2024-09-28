@@ -1,5 +1,7 @@
+#this is to setup the environmental issue in laptop and may not occur in everyone's PC
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
+#Project
 import cv2
 import numpy as np
 import tensorflow as tf
